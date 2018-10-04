@@ -22,28 +22,16 @@
 
 
 <body>
-
-   <script>     
- if(navigator.userAgent.indexOf("MSIE")!=-1) {
- 
-var txt ="Unsupported browser detected. To get better experience open the website in chrome or firefox";
- 
-var ie=document.createElement('div');
-ie.setAttribute("style", "width:100%;height:100%;zindex:9999;text-align:center; background:rgba(240,240,240,.7); position: fixed; top:0px; left:0px;");
- 
-var label = document.createElement('label');
-label.innerHTML = txt;
-ie.appendChild(label);
-document.body.appendChild(ie);   
+<script>     
+ if(navigator.userAgent.indexOf("MSIE")!=-1) { 
 window.location.href = "./unsupported.html"   
     }
 </script>
 <script type="text/javascript">
 <!--
 if (screen.width <= 699) {
-document.location = "./unsupported.html";
+document.location = "./discord-mobile.html";
 }
-//-->
 </script>	
 	
 	
